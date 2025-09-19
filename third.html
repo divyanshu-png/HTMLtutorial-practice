@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Techniques</title>
+</head>
+<body>
+    <header>
+        <h2>Education</h2>
+        <h2>Portfolio</h2>
+    </header>
+    <p><B>Semantic HTML elements</B> provide meaning to the structure of a web page, making it more understandable for both browsers and developers, and <U>improving accessibility and SEO.</U> <HR>
+
+        1) (header): Represents introductory content, usually containing a group of navigational aids and branding.<br>
+        2) (main): Represents the dominant content of the (body). There should only be one (main) element per document.<br> 
+        3)(footer): Represents a footer for its nearest ancestor sectioning content or the root element. Usually contains copyright information, links to related documents, etc.
+        <br><br>
+        Now we will use these layout techniques to enhance our portfolio page. 
+    </p>
+    <p>
+        Under the portfolio page we discuss about three main tags that are used: <br>
+        1) (header): Contains the main heading of the page, which is "My Portfolio".<br>
+        2) (main): Contains the main content of the page, including a welcome message, personal introduction, and links to LinkedIn, education profile, and project synopsis. Also includes a section tag providng an overview of what ll I have done as a part of my personal and professional growth!<br>
+        3) (footer): Contains contact information, including a phone number and email address.
+
+        <br><br>
+    </p>
+    <em> Note: Strong and bold tags i.e b are same and so are emphasis and italics. The curerent text is listed in emphasis tag </em>
+    <p>
+        Now we will discuss the tags that are included inside the main tag :<br>
+        1) <b>Section Tag (section):</b> Used to define sections of content, such as "Linkedin", "Education", and "Project, Experience and Certifications". Like for example when we visit the Wikipedia page there are different section to which we can direct, simply by clicking on them. <br>
+        2) <b>Article Tag (article):</b> Used to define independent, self-contained content, such as a blog post or news article. In this case, it is used in the portfolio page to provide an oveview to the recruiter, and is a common semantic element.<br>
+        3)<strong>Aside tag (aside):</strong> Used to display content except the main content i.e like the ads section, call out boxes, author information, realted contents/further readings, bibliographires etc. Basically the content indirectly related to the main content. While the aside tag itself does not apply any special styling, it is typically styled using CSS to visually distinguish it from the main content, such as by placing it in a separate column or adding borders and background colors.
+        4) <strong> Figure and figcaption tags (figure)(figcaption):</strong> Used for self-contained content, like images, diagrams, code snippets, with an optional caption.
+    </p>
+    <P>
+       <i> Note:<br> 
+            To create a clickable image, i.e.  a link opens up on clicking the photo we use an image tag under the anchor tag simultaneously. Like for example:  
+        </i>
+        <a 
+            href="https://www.cloudskillsboost.google/" target="_blank" ><img src="https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_200_200/company-logo_200_200/0/1698660876286?e=2147483647&v=beta&t=GTNf3kD3LVtMJOG8AdTtdqv1aGmSDNC6zHOYBnEWyww"
+            height="250"
+            alt="Google Cloud Skill Boost"> 
+        </a>
+    </P>
+    <header>
+        <h1>The Wonders of Semantic (example use case of section tag )</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction to Semantic HTML</h2>
+            <p>Semantic HTML elements provide meaning to the content on a webpage, improving accessibility and SEO.</p>
+        </section>
+
+        <section>
+            <h2>Common Semantic Tags</h2>
+            <p>This section explores various semantic tags like `header`, `nav`, `main`, `article`, `section`, `aside`, and `footer`.</p>
+            <ul>
+                <li>`article`: For self-contained, independent content.</li>
+                <li>`aside`: For tangential content, like sidebars.</li>
+                <li>`footer`: For copyright information, contact details, etc.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conclusion and Best Practices</h2>
+            <p>Using semantic HTML consistently leads to well-structured and maintainable web pages.</p>
+        </section>
+    </main>
+
+</body>
+</html>

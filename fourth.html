@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-semantic tags  </title>
+</head>
+<body>
+    <header><h2>Advanced Tags in HTML</h2></header>
+    <main>
+        Let us discuss about some non semantic tags i.e.<br> 
+       <h3> 1)Div tag (div):</h3> It is a container used to store other HTML element. It is a block element that taked full width.<br>
+        Div ko ham ek dabbe ki tarah imagine kar skte hai jisme hame elements ghusedne ki permission hai. <br> 
+
+        The div tag in HTML defines a division or a section within an HTML document. It is a block-level element, meaning it typically takes up the full available width and starts on a new line.  It serves as a generic container for other HTML elements and content, providing a way to group related content together for styling with CSS or manipulation with JavaScript.<br>
+        <hr>
+        <i> Note: The counterpart of block level elements are called inline elements i.e. the elements that take only a specified amount of space</i>
+        <br></br> 
+        Let us practically use div: 
+        <div>
+            <p> Hello World! This is the introduction div: 
+            Greetings! My name is Divyanshu Singh I am currently ersuing my underraduate from a GGSIPU affiliated college.<br>
+            Welcome to the show!
+            </p>
+        </div>
+        <div>
+            <p>
+                This the closing/ Conclusion division(or called div for short).Bye!
+            </p>
+        </div>
+        <p> You may see that other elements also take up the whole width i.e. are block elements. The example of it are: <br>
+            a) article tag<br>
+            b) dl dt and dd tag<br>
+            c) aside tag<br>
+            d) fieldset tag<br>
+            e) figcaption tag <br>
+            f) footer tag<br>
+            g) All heading tags i.e. from h1 to h6 <br>
+            h) Header tag <br> 
+            i) Main tag <br> 
+            j) ol (ordered list) and li(list elements)<br> 
+            l) p (paragraph tag)<br
+        </p>
+        <hr> 
+        <p> 
+            <h3>2) Span tag (span):</h3>Span tag (span): also a container element for other html tags taking the space/width as per requirement. 
+            It is an inline element. The span tag in HTML is a generic inline container used to group and apply styling or scripting to a specific portion of text or inline elements within a document. <br> 
+        </p>
+        Let us use an example: 
+        <span>
+            Introductory span<br>
+            Hello everyone! This is another span that is a container inline element.<br> 
+            <a href="https://www.educba.com/span-tag-in-html/" target=_blank><img src="https://cdn.educba.com/academy/wp-content/uploads/2020/01/span-tag-in-html.jpg" alt="Image" height="250"></a>
+        </span>
+        <P>
+            List of inline element tags:<br> 
+                a) Anchor tag(a)<br> 
+                b) Bold tag(b)<br> 
+                c) Button tag(button)<br>
+                d) br (nextline tag)<br>
+                e) img(image tag)<br>
+                f) input tag(input)<br>
+                g) Label tag(label)<br>
+                h)var (variable tag)<br>
+                i) strong tag<br>
+                j) small tag<br>
+                k)map tag<br>
+                l)time tag <br>
+                m) italics tag<br>
+        </P>
+        <b><hr></b>
+        <p>
+            We have manually created the list above but it cabn be done easily by using the list tags in Html :
+            <h3> 3) Lists:</h3>
+            we can use the ordered and unordered list tags( ol and ul) along with the list element tag(li)and thus the list that will be formed will be :<br> 
+            <i> A) Unordered list(creates a unnumbered bullet points or boxes that denote a list and not any numerical ordering) </i>
+            <ul>
+                <li>Anchor tag</li><li>bold tag</li>
+                <li>Button tag</li>
+                <li>Nextine tag(br)</li>
+                <li>Image tag</li><li>Input tag</li>
+            </ul>
+            <i>B) Ordered list(adds number or roman numerals that denote the sequence) </i>
+            <ol>
+                <li>Anchor tag</li><li>bold tag</li>
+                <li>Button tag</li>
+                <li>Nextine tag(br)</li>
+                <li>Image tag</li><li>Input tag</li>
+            </ol>
+            <BR> 
+            There is one another type of list that is <b>Definition list</b>, that is used to define the terms along with their desciprtion, for example: we have to decsribe the syntax along witht the description of the above bullet points. We use DL, DT AND DD respectively denoting<i>(example use case also) :</i>
+            <dl>
+                <dt>Description List: </dt>
+                <dd>This element acts as the container for the entire definition list, enclosing all the terms and their descriptions.</dd>
+                <dt>Description Term: </dt>
+                <dd>This element represents a single term or name within the list.</dd>
+                <dt>Description Details: </dt>
+                <dd>This element provides the description or definition associated with the preceding dt term.</dd>
+            </dl>
+            We can add description list in the ordered or unorderedlist but it is semanticalu incorrect to be done. An alernatice to that will be creating an ordered list with list elements as headings and description along it in paragraphs. 
+
+        <hr> 
+            <H3>4)Tables in HTML</H3> 
+            Tables are used to display tabular data that is usually real time helpful data that can be used to graphically and easily denote data.
+            <br> We use tags as tr(table row), td(table data)and th(table header) tag, or thead,tbody and tfoot tag individually inside the table tag and then use the tr and td tags.<br><br>
+            Table head(thead) and table body(tbody) both are used for layout for the table. <br></br>
+            <i>Examples: Let us consider a table of student data that we consider in DBMS : </i> <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Roll Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Divyanshu</td>
+                        <td>T-2</td>
+                        <td>10515602723</td>
+                    </tr>
+                    <tr>
+                        <td>Oompa-loompa</td>
+                        <td>T-2</td>
+                        <td>10615602723</td>
+                    </tr>
+                    <tr>
+                        <td>Rishabh Jain</td>
+                        <td>T-2</td>
+                        <td>10715602723</td>
+                    </tr>
+                </tbody>
+                <!--the table footer is completely optional-->
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Data last updated: 2025-07-13</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br></br>
+            <i>Another example using only th, tr and td: </i><br>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Section</th>
+                    <th>Roll Number</th>
+                </tr>
+                <tr>
+                        <td>Divyanshu</td>
+                        <td>T-2</td>
+                        <td>10515602723</td>
+                </tr>
+                <tr>
+                        <td>Oompa-loompa</td>
+                        <td>T-2</td>
+                        <td>10615602723</td>
+                </tr>
+                <tr>
+                        <td>Rishabh Jain</td>
+                        <td>T-2</td>
+                        <td>10715602723</td>
+                </tr>
+                <tr> 
+                        <td colspan="3">Data last updated: 2025-07-13</td>
+
+                </tr>
+            </table>
+        </p>
+        <P>
+           Menaning the two formats are not different but interchangaable.<bR>
+            We can add caption in this content table too. This is done using the caption tag. Following is the example for the same:<br> 
+                  <table>
+            <caption> Student data</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Roll Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Divyanshu</td>
+                        <td>T-2</td>
+                        <td>10515602723</td>
+                    </tr>
+                    <tr>
+                        <td>Oompa-loompa</td>
+                        <td>T-2</td>
+                        <td>10615602723</td>
+                    </tr>
+                    <tr>
+                        <td>Rishabh Jain</td>
+                        <td>T-2</td>
+                        <td>10715602723</td>
+                    </tr>
+                </tbody>
+                <!--the table footer is completely optional-->
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Data last updated: 2025-07-13</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </P>
+        <hr> z
+        <p>
+           <h3> 5) Forms in HTML</h3>
+            Forms are used to collect dta from the user when required, for example while signup/login, Help requests, contacting a company for a certain purpose, etc. <bR>
+            The form tag works as following: 
+            <br></br> 
+            <form>
+                <input type="text">
+            </form>
+            <br>
+            Let us further elaborate this example and add certain more attributes.
+            <BR>
+            <form action="/action.php" method="post">
+                <input type="text" placeholder="Type username here"><br><br>
+
+                <input type="password" placeholder="Type your password here">
+            </form>
+            Now let us understand each element here: <br> <br>
+            1) Form : defines the HTML form 
+            <ul>
+                <li><b>Action attribute:</b> Specifies the URL where the form data will be sent upon submission</li>
+                <li><b>Method attribute:</b> Specifies the HTTP method to use (e.g., get or post).
+                    <br>
+                    a) GET: Appends form data to the URL (visible, limited data). Good for simple queries.
+                    <br> 
+                    b) POST: Sends form data in the HTTP request body (not visible, more data). Good for sensitive data(like username password and personal details) or large amounts of data.</li>
+            </ul>
+            <br>
+            2) Input tag: The most versatile element used for inputting the data.  Creates a box that can be used for various input types. Has two IMPORTANT attributes; TYPE and PLACEHOLDER or VALUE <br> 
+
+            3) Label Element: Let us understand this with an example: <br><br>  
+
+            <form>
+                <label for="username">Username:</label><br>
+                <input type="text" placeholder="Enter Username here">
+            </form>
+            <hR> 
+            Label tag provides a label for an input element, improving accessibility. The for attribute should match the id of the input.
+            <br><br>
+
+            Here we see that a label of username is shown at the top of the imput box allowing users to clearly enter the required data. This helps in visual neatness and also helping visually impaired users to access the site easily. <BR> Another functionality of the labels are the radio buttons(Choice buttons)<br>
+            
+            <form>
+                <label for="username">Username:</label><br>
+                <input type="text" placeholder="Enter Username here"> <br>
+
+                <label>Class</label>
+                <input type="radio" value="Class XI" name="class">Class XI <br>
+                <input type="radio" value="Class XII" name="class">Class XII<br>
+            </form>
+            
+        </p>
+    </main>
+    <footer>
+        s.divyanshusinfh232006@gmail.com<br>
+        &copy; 2025 My Blog. All rights reserved.
+    </footer>
+</body>
+</html>
